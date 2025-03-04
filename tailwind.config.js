@@ -8,8 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        color_black: "var(--black)",
+        color_white: "var(--white)",
+      },
+      fontFamily: {
+        corporate: ["BillCorporateNarrow", "serif"],
       },
     },
   },
