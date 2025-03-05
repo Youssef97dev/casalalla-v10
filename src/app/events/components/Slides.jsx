@@ -46,7 +46,7 @@ const images = [
 
 const Slides = () => {
   return (
-    <div id="gallery" className="relative w-full min-h-[75vh]">
+    <div id="gallery" className="relative w-full min-h-[50vh]">
       <div className="absolute w-full h-full flex justify-center items-center px-5 md:px-12 lg:px-32">
         <Swiper
           slidesPerView={1}
