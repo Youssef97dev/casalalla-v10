@@ -52,24 +52,24 @@ const Navbar = () => {
                 className="space-y-8 leading-[25px] text-[20px] mt-10 uppercase font-corporate"
               >
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="#hero">Home</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="#about">Events</Link>
+                  <Link href="#">Events</Link>
                 </li>
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="#gallery">Gallery</Link>
+                  <Link href="/gallery">Gallery</Link>
                 </li>
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="#activities">Activities</Link>
+                  <Link href="/activities">Activities</Link>
                 </li>
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="#" target="_blank">
+                  <Link href="/menu-casa-lalla-takerkoust.pdf" target="_blank">
                     Menu
                   </Link>
                 </li>
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="#">Book</Link>
+                  <Link href="/booking">Book</Link>
                 </li>
               </ul>
             </div>
