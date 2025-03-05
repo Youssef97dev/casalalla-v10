@@ -69,7 +69,12 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-3 border-b border-gray-400">
-                  <Link href="/booking">Book</Link>
+                  <Link
+                    target="_blank"
+                    href="https://casalalla-v9.vercel.app/booking"
+                  >
+                    Book
+                  </Link>
                 </li>
               </ul>
             </div>
