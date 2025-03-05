@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className="mt-14 w-full flex flex-col gap-5 justify-start items-center font-corporate font-normal px-5">
+    <div className="mt-0 w-full flex flex-col gap-5 justify-start items-center font-corporate font-normal px-5">
       <p className="text-left">
         {`Sway to your favorite international/global dance beats and enjoy
 family-style Mediterranean cuisine meant to be shared amongst old friends and new as the sun
@@ -18,23 +18,29 @@ locale offering true luxury from its natural surroundings, good company and ener
 as a reminder that life is a celebration.`}
       </p>
 
-      <div className="my-10">
+      <h1 className="text-center mt-4 text-[25px] tracking-widest w-full font-medium">{`How to Find Casa Lalla Takerkoust ?`}</h1>
+
+      <div className="my-5">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/drefbaza84g3qdz1gkwj"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/hg0ykixiwpvehv9hdm4s"
           height={1000}
           width={1000}
           className="object-cover w-full h-full rounded-md"
         />
       </div>
-
       <p className="text-left">
-        {`Casa lalla is the latest addition to Marrakech’s thriving restaurants scene with the stunning view
-of the lake to enjoy exquisite seafood with minimal preparation, Using the best products treated
-with the greatest respect and expertise. Great Mediterranean inspired menu premier lunch hot
-spot. Simply a must. It’s also an invitation to explore, relax, and connect with Moroccan nature
-and culture. Plan your visit and let yourself be enchanted by this hidden jewel. Prepare yourself
-to be captivated by the serene beauty of this lake. Breathtaking, High Atlas mountains amazing
-experience and unforgettable views.`}
+        {`Casa Lalla Takerkoust is a picturesque destination nestled along the Route
+d’Amizmiz, just a short 30 minute drive from Marrakech, Morocco. This serene
+locale, set against the stunning backdrop of the Atlas Mountains and the
+expansive Lalla Takerkoust Lake, offers a tranquil retreat for those seeking an
+escape from the hustle and bustle of the city.`}
+      </p>
+      <p className="text-left">
+        {`Whether you’re seeking a wellness retreat or a
+romantic escape, Lalla Takerkoust offers a captivating blend of natural beauty
+and cultural richness. The journey along Route d’Amizmiz to Casa Lalla
+Takerkoust promises an unforgettable experience, inviting guests to indulge in
+the comfort and hospitality that characterize the reputation of Marrakech’s hosts.`}
       </p>
     </div>
   );

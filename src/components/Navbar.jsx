@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-//import { Transition } from "@headlessui/react";
-//import Link from "next/link";
+import { Transition } from "@headlessui/react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +12,12 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto md:px-4 p-0">
         {/* Mobile Navbar */}
         <div className="md:hidden flex justify-between items-center bg-color_white px-5 py-1">
-          <div className="text-2xl font-semibold"></div>
           <div className="text-2xl font-semibold">
             <img src="/logo-1.png" className="w-28 h-28" alt="Logo" />
           </div>
+          <div className="text-2xl font-semibold"></div>
           <div></div>
-          {/*<button
+          <button
             className="text-xl text-color_black"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -26,7 +26,7 @@ const Navbar = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-7 h-7"
             >
               <path
                 strokeLinecap="round"
@@ -35,8 +35,8 @@ const Navbar = () => {
                 d="M4 6h16M4 12h16m-7 6h7"
               />
             </svg>
-          </button>*/}
-          {/* Full-screen mobile menu 
+          </button>
+          {/* Full-screen mobile menu */}
           <Transition
             show={isOpen}
             enter="transition ease-out duration-700"
@@ -46,34 +46,34 @@ const Navbar = () => {
             leaveFrom="transform translate-x-0 opacity-100"
             leaveTo="transform translate-x-full opacity-0"
           >
-            <div className="fixed top-[5.5rem] right-0 z-10 w-full h-screen bg-white flex flex-col items-left justify-between px-20">
+            <div className="fixed top-[7rem] right-0 z-10 w-full h-screen bg-white flex flex-col items-left justify-between px-20">
               <ul
                 onClick={() => setIsOpen(false)}
-                className="space-y-8 text-bg_intro leading-[25px] text-[20px] mt-10 uppercase font-light"
+                className="space-y-8 leading-[25px] text-[20px] mt-10 uppercase font-corporate"
               >
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#hero">{t("navbar.home")}</Link>
+                <li className="pb-3 border-b border-gray-400">
+                  <Link href="#hero">Home</Link>
                 </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#about">{t("navbar.about")}</Link>
+                <li className="pb-3 border-b border-gray-400">
+                  <Link href="#about">Events</Link>
                 </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#gallery">{t("navbar.gallery")}</Link>
+                <li className="pb-3 border-b border-gray-400">
+                  <Link href="#gallery">Gallery</Link>
                 </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#activities">{t("navbar.activities")}</Link>
+                <li className="pb-3 border-b border-gray-400">
+                  <Link href="#activities">Activities</Link>
                 </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href={`${t("link_menu")}`} target="_blank">
+                <li className="pb-3 border-b border-gray-400">
+                  <Link href="#" target="_blank">
                     Menu
                   </Link>
                 </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#contact">Contact</Link>
+                <li className="pb-3 border-b border-gray-400">
+                  <Link href="#">Book</Link>
                 </li>
               </ul>
             </div>
-          </Transition>*/}
+          </Transition>
         </div>
       </div>
     </nav>
