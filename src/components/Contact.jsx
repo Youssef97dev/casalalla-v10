@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="mt-2 py-16 w-full min-h-[75vh] flex flex-col  justify-center gap-16 items-center font-corporate px-5">
       <div className="w-full flex flex-col justify-start items-center gap-2 text-center">
         <span className="tracking-widest text-[12px] leading-[19.5px]">{`ADRESS`}</span>
-        <span className="text-[32px] leading-[50px]">{`Lalla Takerkoust, Marrakech 40000 Morocco`}</span>
+        <span className="text-[28px] leading-[50px]">{`Lalla Takerkoust, Marrakech 40000 Morocco`}</span>
       </div>
       <div className="w-full flex flex-col justify-start items-center gap-2 text-center">
         <span className="tracking-widest text-[12px] leading-[19.5px]">{`PHONE`}</span>
