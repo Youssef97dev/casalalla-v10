@@ -18,36 +18,36 @@ import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
 const images = [
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/m2bv97ottzesdqioi6hx",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/isyw8qmpv2eqyliz7jq4",
     thumbnail:
-      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/m2bv97ottzesdqioi6hx",
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/isyw8qmpv2eqyliz7jq4",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/aeuldjydltg3zgisujem",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/rixavtohk5qolpbtghy2",
     thumbnail:
-      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/aeuldjydltg3zgisujem",
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/rixavtohk5qolpbtghy2",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/akkjaul1qfiskaqrg507",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/i69kogh7plg5ejp4i3by",
     thumbnail:
-      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/akkjaul1qfiskaqrg507",
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/i69kogh7plg5ejp4i3by",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/ygvykfxjvir2dtkfdiie",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/og9byamwkz7hcphqlxsk",
     thumbnail:
-      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/ygvykfxjvir2dtkfdiie",
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/og9byamwkz7hcphqlxsk",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/pjdoqvpfbeuldq96mewg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/cpeheqlzvbffghpvdiu0",
     thumbnail:
-      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/pjdoqvpfbeuldq96mewg",
+      "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/cpeheqlzvbffghpvdiu0",
   },
 ];
 
 const Slides = () => {
   return (
     <div id="gallery" className="relative w-full min-h-[75vh]">
-      <div className="absolute w-full h-full flex justify-center items-center px-2 md:px-12 lg:px-32">
+      <div className="absolute w-full h-full flex justify-center items-center px-5 md:px-12 lg:px-32">
         <Swiper
           slidesPerView={1}
           spaceBetween={1}
@@ -71,13 +71,13 @@ const Slides = () => {
               />
             </SwiperSlide>
           ))}
+          <button className="swiper-button-prev-ex1 grid place-content-center left-8 transition text-white absolute z-[999] top-1/2 -translate-y-1/2">
+            <MdOutlineArrowBackIos size={28} />
+          </button>
+          <button className="swiper-button-next-ex1 grid place-content-center right-8 transition text-white absolute z-[999] top-1/2 -translate-y-1/2">
+            <MdOutlineArrowForwardIos size={28} />
+          </button>
         </Swiper>
-        <button className="swiper-button-prev-ex1 grid place-content-center left-8 transition text-white absolute z-[999] top-1/2 -translate-y-1/2">
-          <MdOutlineArrowBackIos size={28} />
-        </button>
-        <button className="swiper-button-next-ex1 grid place-content-center right-8 transition text-white absolute z-[999] top-1/2 -translate-y-1/2">
-          <MdOutlineArrowForwardIos size={28} />
-        </button>
       </div>
     </div>
   );

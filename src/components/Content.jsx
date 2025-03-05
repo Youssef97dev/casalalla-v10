@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className="mt-14 w-full flex flex-col gap-5 justify-start items-center font-light">
-      <p className="text-left px-5">
+    <div className="mt-14 w-full flex flex-col gap-5 justify-start items-center font-corporate font-normal px-5">
+      <p className="text-left">
         {`Sway to your favorite international/global dance beats and enjoy
 family-style Mediterranean cuisine meant to be shared amongst old friends and new as the sun
 kisses and warms your skin. Our restaurant features high-end International cuisine with a focus
@@ -12,22 +12,22 @@ on the finest and freshest locally sourced ingredients and offering premium cock
 all served in a chic and sophisticated atmosphere.`}
       </p>
 
-      <p className="text-left px-5">
+      <p className="text-left">
         {`Casa Lalla Takerkoust is a one of a kind
 locale offering true luxury from its natural surroundings, good company and energy and serves
 as a reminder that life is a celebration.`}
       </p>
 
-      <div className="px-2">
+      <div className="my-10">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_2_is30md"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/drefbaza84g3qdz1gkwj"
           height={1000}
           width={1000}
           className="object-cover w-full h-full rounded-md"
         />
       </div>
 
-      <p className="text-left px-5">
+      <p className="text-left">
         {`Casa lalla is the latest addition to Marrakech’s thriving restaurants scene with the stunning view
 of the lake to enjoy exquisite seafood with minimal preparation, Using the best products treated
 with the greatest respect and expertise. Great Mediterranean inspired menu premier lunch hot
